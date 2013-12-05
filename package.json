@@ -1,0 +1,28 @@
+{
+  "name": "meem",
+  "version": "0.0.1",
+  "description": "Meemplex implementation",
+  "main": "index",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "mqtt": "*",
+    "nedb": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stormboy/node-meem.git"
+  },
+  "keywords": [
+    "Meemplex",
+    "MQTT"
+  ],
+  "author": "Warren Bloomer",
+  "license": "BSD"
+}

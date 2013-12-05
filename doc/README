@@ -1,0 +1,15 @@
+
+
+Device objects will emit lifecycle events
+
+A persisence manager will persist object descriptor/data.
+
+Dependency manager may store dependencies external to the objects
+Will manager event listeners based on dependencies added or removed
+Will manage lifecycle state of objects dependent on other objects 
+
+MQTT transportwill coordinate events between devie objects and an MQTT server.
+
+Configuration views will use object configuration descriptors to prompt users for configuration input. Will display current value (value updated on change event)
+Will accept input and set configuration value.
+Object will act on the configuration changes made.
