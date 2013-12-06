@@ -4,6 +4,6 @@ module.exports = {
 		port: 1883
 	},
 	meemstore: {
-		path: (__dirname+'/data/'),
+		path: (__dirname+'/meemstore/'),
 	}
 };
