@@ -9,13 +9,13 @@ if (true) {
  
 	var meemDefs = {
 		"5c74b28a-70af-4858-b46f-2072dfad8ac6": {
-			type: "org.meemplex.demo.BinaryTimer",
+			type: "org.meemplex.demo.BinaryLoopback",
 			content: {
 				interval: 1000
 			},
 		},
 		"0bbddf42-8802-4909-82df-6593d6f49ad5": {
-			type: "org.meemplex.demo.BinaryTimer",
+			type: "org.meemplex.demo.LinearLoopback",
 			content: {
 				interval: 2000
 			},
