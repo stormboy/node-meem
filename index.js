@@ -10,6 +10,8 @@ exports.MeemBus = require("./lib/meembus");
 exports.MeemServer = require("./lib/meemserver");
 exports.MeemStore = require("./lib/meemstore");
 
+exports.Lifecycle = require("./lib/lifecycle");
+
 exports.meems = {
 	core: require("./lib/meems/core"),
 	demo: require("./lib/meems/demo"),
