@@ -1,6 +1,12 @@
 var meem = require("../");
 var config = require("./config");
 
+config.namespaces = {
+	"org.meemplex.core" : meem.meems.core,
+	"org.meemplex.timer" : meem.meems.timer,
+	"org.meemplex.demo" : meem.meems.demo,
+}
+
 var meemServer = new meem.MeemServer(config);
 
 meemServer.start();
@@ -9,13 +15,13 @@ if (true) {
  
 	var meemDefs = {
 		"5c74b28a-70af-4858-b46f-2072dfad8ac6": {
-			type: "org.meemplex.demo.BinaryLoopback",
+			type: "org.meemplex.demo.LoopbackBinary",
 			content: {
 				interval: 1000
 			},
 		},
 		"0bbddf42-8802-4909-82df-6593d6f49ad5": {
-			type: "org.meemplex.demo.LinearLoopback",
+			type: "org.meemplex.demo.LoopbackLinear",
 			content: {
 				interval: 2000
 			},
@@ -75,6 +81,12 @@ if (true) {
 				},
 				type: "strong"
 			}]
+		},
+		"2844b28a-70af-4858-b46f-2072dfad8ac6": {
+			type: "org.meemplex.timer.Scheduler",
+			content: {
+				interval: 1000
+			},
 		},
 	};
 	
