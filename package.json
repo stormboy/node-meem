@@ -1,6 +1,6 @@
 {
   "name": "meem",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Meemplex implementation",
   "main": "index",
   "directories": {
@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "mqtt": "*",
-    "nedb": "*"
+    "nedb": "*",
+    "cron": "latest"
   },
   "devDependencies": {
   },

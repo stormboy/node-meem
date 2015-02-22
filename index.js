@@ -13,6 +13,7 @@ exports.MeemStore = require("./lib/meemstore");
 exports.Lifecycle = require("./lib/lifecycle");
 
 exports.meems = {
-	core: require("./lib/meems/core"),
-	demo: require("./lib/meems/demo"),
+	core:  require("./lib/meems/core"),
+	demo:  require("./lib/meems/demo"),
+	timer: require("./lib/meems/timer"),
 };
